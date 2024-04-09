@@ -22,12 +22,16 @@
 \renewcommand{\baselinestretch}{\linespacing}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% Allow acutes etc.
+\usepackage[utf8]{inputenc}
+\DeclareUnicodeCharacter{0308}{\"{e}}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % BIBLIOGRAPHY STYLE
 \usepackage{natbib}
 % \bibliographystyle{plain} for [1], [2] etc.
-\bibliographystyle{apalike}
+\bibliographystyle{plain}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -72,7 +76,6 @@
 %\usepackage{backref}
 %\renewcommand{\backrefpagesname}{Cited on}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % BEGIN DOCUMENT
